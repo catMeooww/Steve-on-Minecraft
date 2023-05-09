@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("background.webp");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: rgba(255, 255, 255, 0); 
+	border-style:ridge;
+}
+
+h1,h5
+{
+	color: white !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Steve no Minecraft</title>
+</head>
+<body onload="add()">
+<center>
+<h1>Movendo o Steve sobre o mundo de Minecraft</h1>
+<canvas id="myCanvas" width="700" height="500"></canvas>
+<h5>
+	<b>NOTA : </b> SE O STEVE NÃO ESTIVER VISÍVEL, PRESSIONE QUALQUER TECLA
+</h5>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
